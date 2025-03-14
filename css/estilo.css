@@ -1,6 +1,18 @@
-.fondo{
-    color: rgb(255, 0, 0);
+*{
+    
+    margin: 0px;/*para hacer espacios*/
+    padding: 0px;/*espacio interno del elemento*/
+    box-sizing: border-box;/*espacio en caja*/
 }
-h1{
-    color: rgb(0, 0, 0);
+body{
+    font-family: 'Arial',sans-serif;
+    background-color: black;
+}
+header{
+    width: 100px;
+    color:white;
+    background-color: blue;
+    text-align: center;
+    margin: 0;
+    height: 100px;
 }
