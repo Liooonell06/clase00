@@ -4,13 +4,15 @@
     padding: 0px;/*espacio interno del elemento*/
     box-sizing: border-box;/*espacio en caja*/
     text-decoration: none;
+    
 }
 body{
     font-family: 'Arial',sans-serif;
     background-color: black;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     display: flex;
+   
 }
 header{
     background-color: brown;
@@ -19,7 +21,7 @@ header{
 
 }
 main{
-  height: 100%;
+  padding: 1em;
   width: 60%;
   background-color: rgb(255, 255, 255);
 }
@@ -57,7 +59,7 @@ img{
 }
 .datosPersonales{
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-color: rgb(97, 94, 94);
     padding: 1em;
     display: grid;
@@ -82,7 +84,39 @@ img{
     grid-template-columns: repeat(2,1fr);
 }
 .educacion{
+    
     padding: 2em;
     width: 100%;
-    background-color: rgb(4, 0, 255);
+    background-color: rgb(125, 124, 139);
+}
+
+.contenedorFlexbox{
+    flex-direction: column;
+    background-color: gray;
+    display: flex;
+    overflow-x: auto ;
+    gap: 10px;
+    justify-content: flex-end;/*esto es para cuando esta en el eje x*/
+    align-items: flex-end;
+}
+.tarjeta{
+    margin: 1em;
+    flex-basis: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0 0 10px 0 black;
+    flex: 1 0 100px;
+}
+.tarjetaTitulo{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.tarjetaContenido{
+    font-size: 1em;
+    background-color: white;
+    color: gray;
+    padding: 1em;
+    border-radius: 1em;
 }
