@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    justify-content: space-between; /* Coloca el menú a la izquierda y los íconos a la derecha */
+    justify-content: space-between; 
     align-items: center;
     display: flex;
     align-items: center;
@@ -17,13 +17,13 @@ header{
 .icono-izq {
     font-size: 24px;
     color: #1d1091;
-    margin-right: 150px; /* espacio entre ícono y texto */
+    margin-right: 150px; 
   }
   .iconos-derecha {
     margin-left: 50PX;
     color: #000000;
     display: flex;
-    gap: 15px; /* Espacio entre los íconos */
+    gap: 15px; 
   }
   
   .icono-lupa, .icono-carrito {
@@ -67,8 +67,8 @@ main{
 
   
 .redes:hover {
-    transform: scale(1.1); /* Aumenta el tamaño del elemento */
-    background-color: #000000; /* Cambia el color de fondo */
+    transform: scale(1.1); 
+    background-color: #000000; 
 }  
     
 .cuadrado{
@@ -87,24 +87,22 @@ main{
 
 .barra {
     font-size: 60px;
-    width: 100%; /* Ancho total de la barra */
-    overflow-x: auto; /* Permite el desplazamiento horizontal */
-    background-color: #000000; /* Fondo de la barra */
-    color: white; /* Color de texto */
-    padding: 10px 0; /* Espaciado en la parte superior e inferior */
-    white-space: nowrap; /* Evita que los textos se dividan en varias líneas */
+    width: 100%; 
+    overflow-x: auto; 
+    background-color: #000000; 
+    color: white;
+    padding: 10px 0;
+    white-space: nowrap;
   }
-  
-  /* Contenedor de los textos dentro de la barra */
+
   .contenedor-texto {
-    display: flex; /* Los textos se alinearán en una fila horizontal */
-    gap: 30px; /* Espacio entre los textos */
+    display: flex; 
+    gap: 30px;
   }
   
-  /* Estilo para los párrafos de texto dentro de la barra */
-  .contenedor-texto p {
-    font-size: 18px; /* Tamaño de texto */
-    margin: 0; /* Elimina márgenes predeterminados */
+    .contenedor-texto p {
+    font-size: 18px;
+    margin: 0; 
   }
   
 
