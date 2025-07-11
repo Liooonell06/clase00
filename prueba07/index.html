@@ -3,78 +3,73 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Stylish</title>
+  <title>Restaurants</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header class="top-bar">
-    <i class="fas fa-bars icono-izq"></i>
-    <img src="./img/iconodepagina.png"  class="logo-stylish" />
-    <h1 class="titulo">Stylish</h1>
-    <i class="fa fa-user"></i>
+    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+    <h1 class="titulo">Restaurants</h1>
   </header>
 
-  
   <div class="search-bar">
     <i class="fa fa-magnifying-glass"></i>
-    <input type="text" placeholder="Search any Product..." />
-    <i class="fa fa-microphone"></i>
+    <input type="text" placeholder="Search restaurants" />
   </div>
 
- 
   <div class="barritaFiltros">
-    <button class="btn">All Featured</button>
-    <div class="filtros">
-      <button class="btn">Sort <i class="fa fa-sort ml-2"></i></button>
-      <button class="btn">Filter <i class="fa fa-filter ml-2"></i></button>
-    </div>
-  </div>
-
-  
-  <div class="barritaCosas">
-    <div class="categoria">
-      <img src="./img/beauty.jpg"><p>Beauty
-    </div>
-    <div class="categoria">
-      <img src="./img/fashion.jpg"><p>Fashion
-    </div>
-    <div class="categoria">
-      <img src="./img/kids.jpg"><p>Kids
-    </div>
-    <div class="categoria">
-      <img src="./img/mens.jpg"><p>Mens
-    </div>
-    <div class="categoria">
-      <img src="./img/womens.jpg"><p>Womens
-    </div>
-  </div>
-
-  <section class="promo-card">
-    <div class="promo-text">
-      <h2>50-40% OFF</h2>
-      <p>Now in {product}<br />All colours</p>
-      <button class="shop-btn">Shop Now →</button>
-    </div>
-    <img src="./img/promo-girl.png" class="promo-img" />
-  </section>
-
- 
-  <div class="dots-slider">
-    <span class="punto activo"></span>
-    <span class="punto"></span>
-    <span class="punto"></span>
+    <a href="carrito.html"<button class="btn">Delivery</button></a>
+    <button class="btn">Pickup</button>
+    <button class="btn">Ratings</button>
   </div>
 
 
-  <section class="deal-card">
-    <div class="deal-text">
-      <h3>Deal of the Day</h3>
-      <p><i class="fa-solid fa-clock"></i> 22h 55m 20s remaining
+  <a href="./italianplace.html" class="restaurant-list">
+    <div class="restaurant">
+      <img src="./img/italian.png" alt="Italian Place">
+      <div>
+        <h4>The Italian Place</h4>
+        <p> 4.5 • 25–35 min</p>
+      </div>
     </div>
-    <button class="view-all-btn">View all</button>
-  </section>
+    <div class="restaurant">
+      <img src="./img/sushi.png" alt="Sushi Express">
+      <div>
+        <h4>Sushi Express</h4>
+        <p> 4.2 • 30–40 min</p>
+      </div>
+    </div>
+    <div class="restaurant">
+      <img src="./img/burger.png" alt="Burger Joint">
+      <div>
+        <h4>Burger Joint</h4>
+        <p> 4.8 • 20–30 min</p>
+      </div>
+    </div>
+    <div class="restaurant">
+      <img src="./img/taco.png" alt="Taco Fiesta">
+      <div>
+        <h4>Taco Fiesta</h4>
+        <p> 4.6 • 25–35 min</p>
+      </div>
+    </div>
+    <div class="restaurant">
+      <img src="./img/noodle.png" alt="Noodle House">
+      <div>
+        <h4>Noodle House</h4>
+        <p> 4.3 • 30–40 min</p>
+      </div>
+    </div>
+  </a>
+
+  <nav class="footer-nav">
+    <a href="#"><i class="fa fa-home"></i><span>Home</span></a>
+    <a href="#"><i class="fa fa-search"></i><span>Browse</span></a>
+    <a href="#"><i class="fa fa-shopping-bag"></i><span>Orders</span></a>
+    <a href="#"><i class="fa fa-user"></i><span>Account</span></a>
+  </nav>
 
 </body>
 </html>
